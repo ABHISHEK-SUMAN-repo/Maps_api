@@ -13,6 +13,8 @@ mvn exec:java -Dexec.mainClass=MapsApi -Dexec.cleanupDaemonThreads=false
 
 ```
 
+3. Put the Coordinates int the origin and destination respectively in the following format:( 12.93175, 77.62872).
+
 ### Images
 
 ### Approx_Distace between 2 cordinates
