@@ -15,7 +15,7 @@ mvn exec:java -Dexec.mainClass=MapsApi -Dexec.cleanupDaemonThreads=false
 
 ### Images
 
-##Approx_Distace between 2 cordinates
+### Approx_Distace between 2 cordinates
 
 <br><img src="images/1.png" ><br></br>
 <br><img src="images/2.png" ><br></br>
