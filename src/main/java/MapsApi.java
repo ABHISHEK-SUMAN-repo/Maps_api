@@ -14,12 +14,12 @@ import java.util.List;
 public class MapsApi {
     private static final String COMMA = "%2C";
     private static final double MIN_DISTANCE = 50d;
-    private static final double MAX_DISTANCE = 40d;
+    private static final double MAX_DISTANCE = 49d;
 
 
     public static void main(String[] args) {
-        Coordinate origin = new Coordinate(12.93175,77.6287);
-        Coordinate des = new Coordinate(12.92662, 77.63696);
+        Coordinate origin = new Coordinate( 34.1358593,-117.922066);
+        Coordinate des = new Coordinate(33.815582, -118.3517026);
         String url = "https://maps.googleapis.com/maps/api/directions/json?origin="+origin.getLat()+COMMA+origin.getLng()+"&destination="+des.getLat()+COMMA+des.getLng()+"&key=AIzaSyAEQvKUVouPDENLkQlCF6AAap1Ze-6zMos";
 
 
@@ -183,7 +183,7 @@ public class MapsApi {
    /*Get points which are close to 50m which is the max_distance*/
     private static Coordinate getPointCloseToMaxDis(double dis, Coordinate p1, Coordinate p2){
         Coordinate mid = getMidPoint(p1, p2);
-        if(dis < MIN_DISTANCE && dis> MAX_DISTANCE){
+        if(dis <=MIN_DISTANCE && dis> MAX_DISTANCE){
             return mid;
         }
         if(dis>MIN_DISTANCE){

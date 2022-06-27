@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7da85ca1-c92a-4ccf-a5f7-3fcb739a6b39" name="Default Changelist" comment="" />
+    <list default="true" id="7da85ca1-c92a-4ccf-a5f7-3fcb739a6b39" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/MapsApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MapsApi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/MapsApi.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/MapsApi.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,6 +21,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -28,6 +35,7 @@
     </option>
   </component>
   <component name="ProjectId" id="1osXTMqcBEjfAh8xhec07wb1H2z" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -109,7 +117,7 @@
       <updated>1614076281455</updated>
       <workItem from="1614076283459" duration="788000" />
       <workItem from="1656306279246" duration="1131000" />
-      <workItem from="1656307452389" duration="8162000" />
+      <workItem from="1656307452389" duration="8820000" />
     </task>
     <servers />
   </component>
