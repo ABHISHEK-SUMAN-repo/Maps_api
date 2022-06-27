@@ -10,8 +10,6 @@ mvn clean compile
 ```
 mvn exec:java -Dexec.mainClass=MapsApi -Dexec.cleanupDaemonThreads=false
 ```
-2.mvn exec:java -Dexec.mainClass=MapsApi -Dexec.cleanupDaemonThreads=false
-```
 
 ### Images
 
