@@ -13,7 +13,7 @@ mvn exec:java -Dexec.mainClass=MapsApi -Dexec.cleanupDaemonThreads=false
 
 ```
 
-3. Put the Coordinates int the origin and destination respectively in the following format:( 12.93175, 77.62872).
+3. Put the Coordinates in the origin and destination variable respectively in the following format:( 12.93175, 77.62872).
 
 ### Images
 
